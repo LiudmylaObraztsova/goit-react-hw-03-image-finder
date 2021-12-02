@@ -1,12 +1,13 @@
 import { Component } from 'react';
  import { ToastContainer, toast } from 'react-toastify';
-  import 'react-toastify/dist/ReactToastify.css';
+import 'react-toastify/dist/ReactToastify.css';
+  import Loader from 'react-loader-spinner';
+import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
 import ImageGallery from './components/ImageGallery';
 import Container from './components/Container';
 import Seachbar from './components/Searchbar/Searchbar';
 import Api from './api/imageApi';
-import Loader from 'react-loader-spinner';
-import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
+
 import Modal from './components/Modal/Modal';
 import Button from './components/Button';
 
